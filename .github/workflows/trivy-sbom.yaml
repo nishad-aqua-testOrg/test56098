@@ -129,6 +129,6 @@ jobs:
 
           echo "Executing binary..."
 
-          ./scannercli scan -A 858361df98fa12fdeba836450120c0dcb22c3c97694db7fbeae607150ee42e9a -H https://e11d515bfb.cloud.aquasec.com nginx --registry {registry}
+          ./scannercli scan -A 858361df98fa12fdeba836450120c0dcb22c3c97694db7fbeae607150ee42e9a -H https://e11d515bfb.cloud.aquasec.com nginx --registry Dockerhub
 
           echo "Binary execution completed"
